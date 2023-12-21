@@ -7,7 +7,7 @@ RSpec.describe Anime, type: :model do
   describe 'Testes de preenchimento do model Anime' do
 
     it 'name consegue ser preenchido?' do
-      @anime.name = ''
+      @anime.name = 'cdz'
       expect(@anime.name).to eq('cdz')
     end
 
