@@ -26,6 +26,11 @@ RSpec.describe Anime, type: :model do
       expect(@anime).to be_valid
     end
 
+    it 'objeto anime invalido com campos obrigatorios não preenchidos?' do
+      anime = Anime.new
+      expect(anime).to be_valid
+    end
+
   end
 
 end
