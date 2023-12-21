@@ -1,0 +1,71 @@
+[33mcommit fb6a94a8ae89a09c418c1b1d1967d61a49175f9e[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Adyson-Lima <adyson_lima@yahoo.com.br>
+Date:   Thu Dec 21 15:56:01 2023 -0300
+
+    12° commit - tdd model: age consegue ser preenchido? RED
+
+[33mcommit bae3e38fa10102f164b20155924a28a05bb56008[m
+Author: Adyson-Lima <adyson_lima@yahoo.com.br>
+Date:   Thu Dec 21 15:54:31 2023 -0300
+
+    11° commit - tdd model: name consegue ser preenchido? GREEN
+
+[33mcommit 7d6254b93f6ad1d9588f10b6fe1f4103a7757ac7[m
+Author: Adyson-Lima <adyson_lima@yahoo.com.br>
+Date:   Thu Dec 21 15:53:02 2023 -0300
+
+    10° commit - tdd model: name consegue ser preenchido? RED
+
+[33mcommit 9057a903b3786b5e7bf83826bb8920976a7a2cb9[m
+Author: Adyson-Lima <adyson_lima@yahoo.com.br>
+Date:   Thu Dec 21 15:48:21 2023 -0300
+
+    9° commit - tdd folders: pasta app/controllers/api/v1 existe? GREEN
+
+[33mcommit 18cbdf15f1b095aa6548eb7f62f9e39d4115ff16[m
+Author: Adyson-Lima <adyson_lima@yahoo.com.br>
+Date:   Thu Dec 21 15:47:34 2023 -0300
+
+    8° commit - tdd folders: pasta app/controllers/api/v1 existe? RED
+
+[33mcommit 2de3b227e23b4613ef5df144700d7e66e1c10e27[m
+Author: Adyson-Lima <adyson_lima@yahoo.com.br>
+Date:   Thu Dec 21 15:45:36 2023 -0300
+
+    7° commit - tdd folders: pasta app/controllers/api existe? GREEN
+
+[33mcommit 2bfd8d4c29dd3e22d4ba446e246a1a99bc81e241[m
+Author: Adyson-Lima <adyson_lima@yahoo.com.br>
+Date:   Thu Dec 21 15:44:42 2023 -0300
+
+    6° commit - tdd folders: pasta app/controllers/api existe? RED
+
+[33mcommit f323a74a5c25cd14cff84b432434fc9af820a9bf[m
+Author: Adyson-Lima <adyson_lima@yahoo.com.br>
+Date:   Thu Dec 21 15:43:05 2023 -0300
+
+    5° commit - tdd folders: pasta spec/controllers existe? GREEN
+
+[33mcommit 8f02812a4070342a05b96f176887a7602c1e8d57[m
+Author: Adyson-Lima <adyson_lima@yahoo.com.br>
+Date:   Thu Dec 21 15:42:05 2023 -0300
+
+    4° commit - tdd folders: pasta spec/controllers existe? RED
+
+[33mcommit ff85f6034730ca07a156d4c3280d6a97ddb9c2b2[m
+Author: Adyson-Lima <adyson_lima@yahoo.com.br>
+Date:   Thu Dec 21 15:40:25 2023 -0300
+
+    3° commit - tdd folders: pasta spec/models existe? GREEN
+
+[33mcommit c788a141e38858c0c15b201f4e19e66e2477d0a2[m
+Author: Adyson-Lima <adyson_lima@yahoo.com.br>
+Date:   Thu Dec 21 15:39:37 2023 -0300
+
+    2° commit - tdd folders: pasta spec/models existe? RED
+
+[33mcommit c225dc9de70c88cbcdc3e83702c79687d483ab63[m
+Author: Adyson-Lima <adyson_lima@yahoo.com.br>
+Date:   Thu Dec 21 15:35:21 2023 -0300
+
+    1° commit - aplicacao criada e configurada

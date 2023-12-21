@@ -12,7 +12,7 @@ RSpec.describe Anime, type: :model do
     end
 
     it 'age consegue ser preenchido?' do
-      @anime.age = ''
+      @anime.age = '1986'
       expect(@anime.age).to eq('1986')
     end
 
