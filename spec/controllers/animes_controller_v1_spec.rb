@@ -20,4 +20,12 @@ RSpec.describe Api::V1::AnimesController, type: :controller do
     end
   end
 
+  describe 'POST /api/v1/animes' do
+    it 'Consegue criar um anime e retornar status 201?' do
+      post :create, params: {anime: {name: 'slailormoon', age: '1987'}, format: :json}
+      expect(response.body).to include_json(name: 'slailormoon')
+      expect(response).to have_http_status(201)
+    end
+  end
+
 end
