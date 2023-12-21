@@ -18,4 +18,14 @@ RSpec.describe Anime, type: :model do
 
   end
 
+  describe 'Testes de validação do model Anime' do
+
+    it 'objeto anime valido com campos obrigatorios preenchidos?' do
+      @anime.name = ''
+      @anime.age = ''
+      expect(@anime).to be_valid
+    end
+
+  end
+
 end
