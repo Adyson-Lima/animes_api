@@ -1,6 +1,6 @@
 class Api::V1::AnimesController < ApplicationController
 
-  before_action :set_anime, only: %i[show update] # show update destroy
+  before_action :set_anime, only: %i[show update destroy] # show update destroy
 
   def index
     @animes = Anime.all 
@@ -26,6 +26,10 @@ class Api::V1::AnimesController < ApplicationController
     else
       render json: @anime.errors, status: :unprocessable_entity
     end
+  end
+
+  def destroy
+    @anime.destroy!
   end
 
 private
