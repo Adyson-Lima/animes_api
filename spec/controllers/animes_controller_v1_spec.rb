@@ -37,4 +37,13 @@ RSpec.describe Api::V1::AnimesController, type: :controller do
     end
   end
 
+  describe 'DELETE /api/v1/animes/id' do
+    it 'Consegue excluir um anime e retornar status 204?' do
+      anime = Anime.last
+      delete :destroy, params: {id: anime.id}
+      expect(Anime.all).not_to include(anime)
+      expect(response).to have_http_status(204)
+    end
+  end
+
 end
