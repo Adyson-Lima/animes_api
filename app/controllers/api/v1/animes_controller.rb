@@ -1,6 +1,6 @@
 class Api::V1::AnimesController < ApplicationController
 
-  before_action :set_anime, only: %i[show] # show update destroy
+  before_action :set_anime, only: %i[show update] # show update destroy
 
   def index
     @animes = Anime.all 
@@ -15,6 +15,14 @@ class Api::V1::AnimesController < ApplicationController
     @anime = Anime.new(anime_params)
     if @anime.save
       render json: @anime, status: :created, location: api_v1_anime_url(@anime) 
+    else
+      render json: @anime.errors, status: :unprocessable_entity
+    end
+  end
+
+  def update
+    if @anime.update(anime_params)
+      render json: @anime
     else
       render json: @anime.errors, status: :unprocessable_entity
     end
