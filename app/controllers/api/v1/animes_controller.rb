@@ -1,10 +1,14 @@
 class Api::V1::AnimesController < ApplicationController
 
-  #before_action :set_anime, only: %i[] # show update destroy
+  before_action :set_anime, only: %i[show] # show update destroy
 
   def index
     @animes = Anime.all 
     render json: @animes
+  end
+
+  def show
+    render json: @anime
   end
 
 private
