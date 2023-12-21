@@ -28,4 +28,13 @@ RSpec.describe Api::V1::AnimesController, type: :controller do
     end
   end
 
+  describe 'PATCH /api/v1/animes/id' do
+    it 'Consegue atualizar um anime e retornar status 200?' do
+      anime = Anime.last
+      patch :update, params: {anime: {name: 'samurai x', age: '2000'}, id: anime.id}
+      expect(response.body).to include_json(name: 'samurai x')
+      expect(response).to have_http_status(200)
+    end
+  end
+
 end
