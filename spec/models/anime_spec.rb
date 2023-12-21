@@ -11,6 +11,11 @@ RSpec.describe Anime, type: :model do
       expect(@anime.name).to eq('cdz')
     end
 
+    it 'age consegue ser preenchido?' do
+      @anime.age = ''
+      expect(@anime.age).to eq('1986')
+    end
+
   end
 
 end
